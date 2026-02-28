@@ -1,0 +1,13 @@
+print('Please enter the width of the rectangle.')  # asks for width then converts to integer
+rectangleWidth = input()
+rectangleWidth = int(rectangleWidth)
+
+print('Please enter the length of the rectangle.')  # asks for length then converts to integer
+rectangleLength = input()
+rectangleLength = int(rectangleLength)
+
+print('Area of the rectangle:')  # displays area of the rectangle
+print(rectangleWidth * rectangleLength)
+
+print('Perimeter of the rectangle:')  # displays perimeter of the rectangle
+print(rectangleWidth + rectangleWidth + rectangleLength + rectangleLength)
