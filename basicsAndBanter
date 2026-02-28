@@ -1,0 +1,11 @@
+# Basic program playing with basic Python, feature print(), input(), string concat, int(), storing variables, basic math, and banter.
+
+print('Hello there!')
+print('What is your name?')
+myName = input()
+print('Jolly good to meet you, ' + myName + '!')
+print('Your name has ' + str(len(myName)) + ' letters in it.')
+print('How old are you, good sir?')
+myAge = input()
+print('Fascinating! You will be ' + str(int(myAge) + 6) + ' before you know it! You had better schedule a colonoscopy!')
+print('Nice chatting with you, sir. Enjoy your day!')
